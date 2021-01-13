@@ -1,0 +1,26 @@
+{
+    "arch": [
+        "aarch64",
+        "amd64",
+        "armhf",
+        "armv7",
+        "i386"
+    ],
+    "boot": "auto",
+    "description": "Bedrock Deno server for Home Assistant",
+    "hassio_api": true,
+    "hassio_role": "default",
+    "image": "hassioaddons/bedrock-{arch}",
+    "init": false,
+    "name": "@samantha-uk/bedrock",
+    "options": {
+        "log_level": "info"
+    },
+    "schema": {
+        "log_level": "list(trace|debug|info|notice|warning|error|fatal)"
+    },
+    "slug": "Bedrock",
+    "startup": "application",
+    "url": "https://github.com/Samantha-uk/bedrock",
+    "version": "0.1.0-alpha.1"
+}

@@ -1,0 +1,20 @@
+{
+    "workbench.colorCustomizations": {
+        "activityBar.activeBackground": "#50abb0",
+        "activityBar.activeBorder": "#9a4595",
+        "activityBar.background": "#50abb0",
+        "activityBar.foreground": "#15202b",
+        "activityBar.inactiveForeground": "#15202b99",
+        "activityBarBadge.background": "#9a4595",
+        "activityBarBadge.foreground": "#e7e7e7",
+        "statusBar.background": "#40898d",
+        "statusBar.foreground": "#e7e7e7",
+        "statusBarItem.hoverBackground": "#50abb0",
+        "titleBar.activeBackground": "#40898d",
+        "titleBar.activeForeground": "#e7e7e7",
+        "titleBar.inactiveBackground": "#40898d99",
+        "titleBar.inactiveForeground": "#e7e7e799"
+    },
+    "peacock.remoteColor": "#40898d",// .vscode/settings.json
+    "deno.enable": true,
+}
