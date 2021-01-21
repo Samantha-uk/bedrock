@@ -1,0 +1,64 @@
+{
+  "badges": [
+    {
+      "alt": "Custom badge",
+      "img": "https://img.shields.io/badge/custom-badge-f39f37.svg",
+      "url": "https://github.com/badges/shields"
+    }
+  ],
+  "blueprint": "blueprint.md",
+  "headingPrefix": {
+    "1": "",
+    "2": ""
+  },
+  "ids": {
+    "github": "samantha-uk",
+    "npm": "@samantha-uk"
+  },
+  "input": "blueprint.md",
+  "line": "grass",
+  "output": "README.md",
+  "package": "package.json",
+  "templates": [
+    {
+      "name": "dependencies",
+      "template": "![David](https://img.shields.io/david/Samantha-uk/one)"
+    },
+    {
+      "name": "version",
+      "template": "![npm (scoped)](https://img.shields.io/npm/v/{{ pkg.version }})"
+    },
+    {
+      "name": "packageVersion",
+      "template": "![](https://img.shields.io/static/v1?label=Version&message={{ pkg.version }}&color=orange)"
+    },
+    {
+      "name": "vulnerabilities",
+      "template": "![Snyk Vulnerabilities for GitHub Repo](https://img.shields.io/snyk/vulnerabilities/github/Samantha-uk/one)"
+    },
+    {
+      "name": "licence",
+      "template": "![GitHub](https://img.shields.io/badge/license-MIT-brightgreen)"
+    },
+    {
+      "name": "issues",
+      "template": "![Issues](https://img.shields.io/github/issues/Samantha-uk/one)"
+    },
+    {
+      "name": "semver",
+      "template": "![(https://semver.org/)](https://img.shields.io/badge/SemVer-2.0.0-brightgreen)"
+    },
+    {
+      "name": "commitizen",
+      "template": "![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)"
+    },
+    {
+      "name": "maintained",
+      "template": "![Maintained](https://img.shields.io/maintenance/yes/2021)"
+    },
+    {
+      "name": "discord",
+      "template": "[![Discord](https://img.shields.io/discord/796659043195551774)](https://discord.gg/XZ49RcWQM2)"
+    }
+  ]
+}
