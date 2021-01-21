@@ -11,6 +11,11 @@
 # Description
 Bedrock is a Docker based, backend server for Home Assistant; supporting zigzag.
 
+# Why Bedrook?
+Well, Bedrock implies a foundation or solid basis to build something.
+Bedrock uses Deno as a core element ... Deno ... Dino, OK, it's corny but it will allow a number of Flintstone based names.
+
+
 # Support
 - Raise an [issue](https://github.com/Samantha-uk/one/issues) and include your browser console output.
 - Ask a question in {{ template:discord }}
