@@ -12,7 +12,7 @@
 ## Table of Contents
 
 * [Description](#description)
-	* [Installation Steps](#installation-steps)
+* [Support](#support)
 * [Know Issues](#know-issues)
 * [Contributing](#contributing)
 	* [License](#license)
@@ -23,10 +23,10 @@
 # Description
 Bedrock is a Docker based, backend server for Home Assistant; supporting zigzag.
 
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/grass.png)](#installation-steps)
 
-## Installation Steps
+[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/grass.png)](#support)
 
+# Support
 - Raise an [issue](https://github.com/Samantha-uk/one/issues) and include your browser console output.
 - Ask a question in [![Discord](https://img.shields.io/discord/796659043195551774)](https://discord.gg/XZ49RcWQM2)
 

@@ -10,8 +10,8 @@
 
 # Description
 Bedrock is a Docker based, backend server for Home Assistant; supporting zigzag.
-## Installation Steps
 
+# Support
 - Raise an [issue](https://github.com/Samantha-uk/one/issues) and include your browser console output.
 - Ask a question in {{ template:discord }}
 
