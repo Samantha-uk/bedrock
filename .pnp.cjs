@@ -19,14 +19,14 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
     ],
     "dependencyTreeRoots": [
       {
-        "name": "root-workspace-0b6124",
+        "name": "@samantha-uk/bedrock",
         "reference": "workspace:."
       }
     ],
     "enableTopLevelFallback": true,
     "ignorePatternData": "(^(?:\\.yarn\\/sdks(?:\\/(?!\\.)(?:(?:(?!(?:^|\\/)\\.).)*?)|$))$)",
     "fallbackExclusionList": [
-      ["root-workspace-0b6124", ["workspace:."]]
+      ["@samantha-uk/bedrock", ["workspace:."]]
     ],
     "fallbackPool": [
     ],
@@ -90,6 +90,18 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["fastq", "npm:1.10.0"]
           ],
           "linkType": "HARD",
+        }]
+      ]],
+      ["@samantha-uk/bedrock", [
+        ["workspace:.", {
+          "packageLocation": "./",
+          "packageDependencies": [
+            ["@samantha-uk/bedrock", "workspace:."],
+            ["@appnest/readme", "npm:1.2.7"],
+            ["tslib", "npm:2.1.0"],
+            ["typescript", "patch:typescript@npm%3A4.1.3#builtin<compat/typescript>::version=4.1.3&hash=cc6730"]
+          ],
+          "linkType": "SOFT",
         }]
       ]],
       ["@sindresorhus/is", [
@@ -953,18 +965,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["reusify", "npm:1.0.4"]
           ],
           "linkType": "HARD",
-        }]
-      ]],
-      ["root-workspace-0b6124", [
-        ["workspace:.", {
-          "packageLocation": "./",
-          "packageDependencies": [
-            ["root-workspace-0b6124", "workspace:."],
-            ["@appnest/readme", "npm:1.2.7"],
-            ["tslib", "npm:2.1.0"],
-            ["typescript", "patch:typescript@npm%3A4.1.3#builtin<compat/typescript>::version=4.1.3&hash=cc6730"]
-          ],
-          "linkType": "SOFT",
         }]
       ]],
       ["run-parallel", [
