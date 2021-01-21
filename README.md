@@ -12,6 +12,7 @@
 ## Table of Contents
 
 * [Description](#description)
+* [Why Bedrook?](#why-bedrook)
 * [Support](#support)
 * [Know Issues](#know-issues)
 * [Contributing](#contributing)
@@ -22,6 +23,14 @@
 
 # Description
 Bedrock is a Docker based, backend server for Home Assistant; supporting zigzag.
+
+
+[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/grass.png)](#why-bedrook)
+
+# Why Bedrook?
+Well, Bedrock implies a foundation or solid basis to build something.
+Bedrock uses Deno as a core element ... Deno ... Dino, OK, it's corny but it will allow a number of Flintstone based names.
+
 
 
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/grass.png)](#support)
